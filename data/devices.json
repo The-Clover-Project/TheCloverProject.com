@@ -1,0 +1,118 @@
+[
+    {
+        "id": 1,
+        "name": "Poco F3",
+        "codename": "alioth",
+        "brand": "Poco",
+        "maintainer": "Perses",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/GenesisOS/Website-Data/v2/devices/roster/alioth/alioth.png"
+    },
+    {
+        "id": 2,
+        "name": "Poco F1",
+        "codename": "beryllium",
+        "brand": "Poco",
+        "maintainer": "Akshat",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/GenesisOS/Website-Data/v2/devices/roster/beryllium/beryllium.png"
+    },
+    {
+        "id": 3,
+        "name": "Redmi 10C",
+        "codename": "fog",
+        "brand": "Redmi",
+        "maintainer": "Txknightt",
+        "status": "Stable",
+        "image": "Redmi 10C.png"
+    },
+    {
+        "id": 4,
+        "name": "Poco X6",
+        "codename": "garnet",
+        "brand": "Poco",
+        "maintainer": "kibria",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/GenesisOS/Website-Data/v2/devices/roster/garnet/garnet.png"
+    },
+    {
+        "id": 5,
+        "name": "Redmi Note 13 Pro",
+        "codename": "garnet",
+        "brand": "Redmi",
+        "maintainer": "kibria",
+        "status": "Stable",
+        "image": "Redmi Note 13 Pro.png"
+    },
+    {
+        "id": 6,
+        "name": "Poco M2 Pro",
+        "codename": "miatoll",
+        "brand": "Poco",
+        "maintainer": "Cruecy",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/GenesisOS/Website-Data/v2/devices/roster/miatoll/miatoll.png"
+    },
+    {
+        "id": 7,
+        "name": "Redmi Note 9S",
+        "codename": "miatoll",
+        "brand": "Redmi",
+        "maintainer": "Cruecy",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/GenesisOS/Website-Data/v2/devices/roster/miatoll/miatoll.png"
+    },
+    {
+        "id": 8,
+        "name": "Redmi Note 9 Pro",
+        "codename": "miatoll",
+        "brand": "Redmi",
+        "maintainer": "Cruecy",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/GenesisOS/Website-Data/v2/devices/roster/miatoll/miatoll.png"
+    },
+    {
+        "id": 9,
+        "name": "Redmi Note 9 Pro Max",
+        "codename": "miatoll",
+        "brand": "Redmi",
+        "maintainer": "Cruecy",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/GenesisOS/Website-Data/v2/devices/roster/miatoll/miatoll.png"
+    },
+    {
+        "id": 10,
+        "name": "Redmi Note 10 Lite",
+        "codename": "miatoll",
+        "brand": "Redmi",
+        "maintainer": "Cruecy",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/GenesisOS/Website-Data/v2/devices/roster/miatoll/miatoll.png"
+    },
+    {"id": 11,
+        "name": "Xiaomi Pad 5",
+        "codename": "nabu",
+        "brand": "Xiaomi",
+        "maintainer": "RainZ",
+        "status": "Stable",
+        "image": "Xiaomi Pad 5.png"
+    },
+    {
+        "id": 12,
+        "name": "Poco F6",
+        "codename": "peridot",
+        "brand": "Poco",
+        "maintainer": "Blaze",
+        "status": "Stable",
+        "image": "Poco F6.png"
+    },
+    {
+        "id": 13,
+        "name": "Nothing Phone 2",
+        "codename": "pong",
+        "brand": "Nothing",
+        "maintainer": "Hiroshi",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/GenesisOS/Website-Data/v2/devices/roster/pong/pong.png"
+    }
+]

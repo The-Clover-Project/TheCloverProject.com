@@ -1,0 +1,20 @@
+[
+  {
+    "version": "4.2",
+    "date": "2025-06-28",
+    "log": [
+      "Updated kernel to Linux 4.9.337.",
+      "Merged latest CAF tag LA.UM.9.3.r1-01500-sdm845.0.",
+      "Improved power management drivers for efficiency."
+    ]
+  },
+  {
+    "version": "4.1",
+    "date": "2025-05-25",
+    "log": [
+      "Android 14 initial bring-up.",
+      "Updated all core packages to latest AOSP release.",
+      "Introduced new theming engine."
+    ]
+  }
+]

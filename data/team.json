@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Ritesh",
+    "role": "Founder & Lead Developer",
+    "image": "https://avatars.githubusercontent.com/u/108788599?v=4",
+    "github": "https://github.com/RiteshSahany",
+    "telegram": "https://t.me/RiteshSahany"
+  },
+  {
+    "id": 2,
+    "name": "Perses",
+    "role": "Core Team & Maintainer",
+    "image": "https://avatars.githubusercontent.com/u/113546203?v=4",
+    "github": "https://github.com/bntxperses",
+    "telegram": "https://t.me/bntxperses"
+  },
+  {
+    "id": 3,
+    "name": "Blaze",
+    "role": "Roster Manager & Maintainer",
+    "image": "https://avatars.githubusercontent.com/u/170931189?v=4",
+    "github": "https://github.com/NotBlazeee28",
+    "telegram": "https://t.me/NotBlazeee28"
+  },
+  {
+    "id": 4,
+    "name": "Akshat",
+    "role": "Public Relations & Maintainer",
+    "image": "https://avatars.githubusercontent.com/u/91002031?v=4",
+    "github": "https://github.com/Legendleo90",
+    "telegram": "https://t.me/Legendleo90"
+  },
+  {
+    "id": 5,
+    "name": "Cruecy",
+    "role": "Infra Dev & Maintainer",
+    "image": "https://avatars.githubusercontent.com/u/68052029?v=4",
+    "github": "https://github.com/userariii",
+    "telegram": "https://t.me/CRUECY"
+  },
+  {
+    "id": 6,
+    "name": "Kshitij",
+    "role": "Ui/UX Designer",
+    "image": "https://avatars.githubusercontent.com/u/156404280?v=4",
+    "github": "https://github.com/kshitij-bhale",
+    "telegram": "https://t.me/Stock_Sucks"
+  },
+  {
+    "id": 7,
+    "name": "Arafath Hossain",
+    "role": "Designer",
+    "image": "https://avatars.githubusercontent.com/u/110384843?v=4",
+    "github": "https://github.com/arafatrahat94",
+    "telegram": "https://t.me/ArafathSensei94"
+  },
+  {
+    "id": 8,
+    "name": "RainZ",
+    "role": "Maintainer",
+    "image": "https://avatars.githubusercontent.com/u/173589746?v=4",
+    "github": "https://github.com/RainySorcerer",
+    "telegram": "https://t.me/Rainysorcerer"
+  },
+  {
+    "id": 9,
+    "name": "Superuser",
+    "role": "Maintainer",
+    "image": "https://avatars.githubusercontent.com/u/29195927?v=4",
+    "github": "https://github.com/joshuah345",
+    "telegram": "https://t.me/Superuser1958"
+  },
+  {
+    "id": 10,
+    "name": "Mohammad Kibria",
+    "role": "Maintainer",
+    "image": "https://avatars.githubusercontent.com/u/106745675?v=4",
+    "github": "https://github.com/kibria5",
+    "telegram": "https://t.me/kibria5"
+  },
+  {
+    "id": 11,
+    "name": "Sreejith",
+    "role": "Maintainer",
+    "image": "https://avatars.githubusercontent.com/u/116376583?v=4",
+    "github": "https://github.com/sreejith7676",
+    "telegram": "https://t.me/sreejith0491"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Welcome to the New Clover Project Blog!",
+    "date": "July 1, 2025",
+    "author": "The Clover Team",
+    "category": "Announcements",
+    "excerpt": "Welcome to our brand new home! We're thrilled to launch our new website and this blog, which will be your go-to source for all things Clover.",
+    "content": "Welcome to our brand new home! We're thrilled to launch our new website and this blog, which will be your go-to source for all things Clover.\n\nOur goal with this new platform is to increase transparency and bring our community closer to the development process. Here, you can expect to find official announcements, deep dives into new features, monthly progress reports, and spotlights on our dedicated community members.\n\nThank you for being part of this journey. We're excited for what's to come!"
+  },
+  {
+    "id": 2,
+    "title": "Deep Dive: Our New Theming Engine",
+    "date": "June 28, 2025",
+    "author": "Jane Doe",
+    "category": "Development",
+    "excerpt": "Let's take a closer look at the powerful and flexible theming engine that just landed in our latest build, giving you unprecedented control over your device's UI.",
+    "content": "One of the most requested features has been more control over the user interface, and we're proud to deliver. Our new theming engine is built from the ground up for performance and flexibility.\n\nIt allows you to customize:\n- Accent Colors: Pick any color you want!\n- Font Styles: Choose from a curated list of fonts.\n- Icon Shapes: System-wide icon shape customization.\n\nThis was a massive undertaking, and it required us to rethink how system resources are loaded. By using overlays instead of direct modifications, we've ensured that updates remain seamless and system stability is never compromised. We can't wait to see the custom themes you create!"
+  },
+  {
+    "id": 3,
+    "title": "Clover Project: June 2025 Update",
+    "date": "June 20, 2025",
+    "author": "The Clover Team",
+    "category": "Updates",
+    "excerpt": "June was a busy month! We've merged the latest security patches, added support for new devices, and squashed some pesky bugs.",
+    "content": "Here's a quick rundown of our progress in June:\n\n- Merged the June 2025 Android Security Bulletin across all supported devices.\n- Official support has been added for the Pixel 10 and a handful of popular devices from OnePlus and Xiaomi.\n- Fixed a bug where the status bar clock would sometimes disappear.\n- Improved battery life on devices with Qualcomm Snapdragon processors.\n\nA huge thank you to all the maintainers and testers who made this possible!"
+  },
+  {
+    "id": 4,
+    "title": "How to Build Clover from Source",
+    "date": "June 15, 2025",
+    "author": "John Smith",
+    "category": "Tutorials",
+    "excerpt": "Ever wanted to build your own version of Clover? This guide will walk you through the process from start to finish.",
+    "content": "Building from source is a great way to learn about the inner workings of Android and contribute to the project. Here is a simplified overview of the steps:\n\n1. Set up your build environment: Make sure you have a Linux system with the necessary packages installed.\n2. Initialize the repository: Use the 'repo' tool to download the AOSP and Clover source code.\n3. Sync the sources: This will download several gigabytes of data, so be prepared!\n4. Start the build: Use our provided build scripts to compile the ROM for your specific device.\n5. Flash the result: Once the build completes, you can flash the resulting ZIP file onto your device.\n\nFor detailed, step-by-step instructions, please visit our official documentation on GitHub."
+  },
+  {
+    "id": 5,
+    "title": "A Look at Our Design Philosophy",
+    "date": "June 10, 2025",
+    "author": "Alice Johnson",
+    "category": "Community",
+    "excerpt": "Why do we make the choices we do? This post explores the core principles that guide the design and development of the Clover Project.",
+    "content": "Our philosophy is simple: provide a clean, stable, and reliable experience that enhances stock Android without adding clutter. We call this 'OEM+.'\n\nEvery feature we consider must answer 'yes' to these three questions:\n1. Does it improve the user experience in a meaningful way?\n2. Can it be implemented without compromising system performance or stability?\n3. Does it feel like a natural extension of the Android OS?\n\nBy adhering to these principles, we ensure that Clover remains a project that is both powerful for enthusiasts and accessible to everyone."
+  },
+  {
+    "id": 6,
+    "title": "New Maintainers, New Devices",
+    "date": "June 5, 2025",
+    "author": "The Clover Team",
+    "category": "Announcements",
+    "excerpt": "Please join us in giving a warm welcome to our newest device maintainers! Their hard work is bringing Clover to more users around the world.",
+    "content": "The strength of any open-source project lies in its community. Today, we are thrilled to welcome three new maintainers to the team! Their contributions are already bringing official Clover support to a new range of devices.\n\nWe are always looking for passionate developers to join our cause. If you're interested in becoming a maintainer for your device, please don't hesitate to reach out to us."
+  },
+  {
+    "id": 7,
+    "title": "May 2025 Security Update",
+    "date": "May 22, 2025",
+    "author": "The Clover Team",
+    "category": "Updates",
+    "excerpt": "The May 2025 Android Security Bulletin has been merged. As always, keeping your device secure is our top priority.",
+    "content": "We have successfully merged the latest security patches from the May 2025 Android Security Bulletin into our source code. The update is now rolling out to all officially supported devices via our built-in updater.\n\nWe recommend updating as soon as possible to ensure your device remains protected against the latest vulnerabilities. Thank you for your continued trust in the Clover Project."
+  },
+  {
+    "id": 8,
+    "title": "Behind the Scenes: Our CI/CD Pipeline",
+    "date": "May 18, 2025",
+    "author": "Bob Williams",
+    "category": "Development",
+    "excerpt": "How do we build and deliver updates for so many devices? Take a look at the automation that powers our project.",
+    "content": "Delivering timely and reliable updates for a growing list of devices is a significant challenge. To manage this, we've invested heavily in our Continuous Integration and Continuous Deployment (CI/CD) pipeline.\n\nOur automated system handles everything from compiling the source code for each device to running a suite of tests and uploading the final builds for distribution. This automation frees up our developers to focus on what they do best: creating new features and fixing bugs."
+  }
+]

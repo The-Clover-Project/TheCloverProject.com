@@ -1,0 +1,69 @@
+{
+  "name": "POCO F1",
+  "codename": "beryllium",
+  "brand": "Xiaomi",
+  "tagline": "Experience the perfect blend of performance and customization with our Pixel-inspired custom ROM for your device.",
+  "image": "https://raw.githubusercontent.com/GenesisOS/Website-Data/v2/devices/roster/beryllium/beryllium.png",
+  "maintainer": {
+    "name": "Alex Johnson",
+    "githubUrl": "https://github.com/the-clover-project"
+  },
+  "olderBuildsUrl": "https://sourceforge.net/projects/the-clover-project/files/beryllium/",
+  "builds": [
+    {
+      "version": "4.2",
+      "androidVersion": "14",
+      "status": "Stable",
+      "date": "2025-06-28",
+      "securityPatch": "June 2025",
+      "fileSize": "2.1 GB",
+      "md5": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+      "downloadUrl": "https://sourceforge.net/projects/the-clover-project/files/beryllium/Clover-v4.2-beryllium-stable.zip/download"
+    }
+  ],
+  "installationGuide": {
+    "steps": [
+      {
+        "title": "Unlock Bootloader",
+        "description": "Ensure your device's bootloader is unlocked before proceeding."
+      },
+      {
+        "title": "Flash Recovery",
+        "description": "Flash the latest compatible custom recovery (e.g., TWRP, OrangeFox) for your device."
+      },
+      {
+        "title": "Wipe Data",
+        "description": "In recovery, wipe data, cache, and dalvik/art cache for a clean install."
+      },
+      {
+        "title": "Flash Clover ROM",
+        "description": "Sideload or flash the downloaded Clover ROM zip file from recovery."
+      },
+      {
+        "title": "Reboot",
+        "description": "The first boot may take a few minutes. Enjoy Clover!"
+      }
+    ],
+    "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
+  },
+  "deviceChangelog": [
+    {
+      "version": "4.2",
+      "date": "2025-06-28",
+      "log": [
+        "Updated to June 2025 security patch.",
+        "Improved battery optimization for better standby time.",
+        "Fixed a bug causing Wi-Fi stability issues on some networks."
+      ]
+    },
+    {
+      "version": "4.1",
+      "date": "2025-05-25",
+      "log": [
+        "Initial stable release for Android 14.",
+        "Added new customization options for the status bar.",
+        "Fixed Bluetooth audio routing issues."
+      ]
+    }
+  ]
+}
