@@ -1,0 +1,100 @@
+{
+  "name": "POCO F1",
+  "codename": "beryllium",
+  "brand": "Poco",
+  "tagline": "Experience the perfect blend of performance and customization with our Pixel-inspired custom ROM for your device.",
+  "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/download/beryllium.png",
+  "maintainer": {
+    "name": "Akshat",
+    "githubUrl": "https://github.com/Legendleo90"
+  },
+  "olderBuildsUrl": "https://get.thecloverproject.com/folder/beryllium/",
+  "builds": [
+    {
+      "version": "2.7",
+      "androidVersion": "15",
+      "status": "Stable",
+      "date": "18-06-2025",
+      "securityPatch": "June 2025",
+      "fileSize": "2.4 GB",
+      "md5": "8b203357168e5696785541a46d9b5efd",
+      "downloadUrl": "https://get.thecloverproject.com/folder/beryllium/2.7"
+    }
+  ],
+  "installationGuide": {
+    "steps": [
+      {
+        "title": "Unlock Bootloader",
+        "description": "Ensure your device's bootloader is unlocked before proceeding."
+      },
+      {
+        "title": "Reboot To Fastboot",
+        "description": "Reboot to Fastboot by pressing Vol Down + Power Button."
+      },
+      {
+        "title": "Connection",
+        "description": "Open CMD or Terminal on your PC and connect your phone via USB."
+      },
+      {
+        "title": "Flash Recovery",
+        "description": "Flash recovery by typing:<pre><code>fastboot flash recovery recovery*.img</code></pre>"
+      },
+      {
+        "title": "Reboot To Recovery",
+        "description": "Reboot into Recovery typing:<pre><code>fastboot reboot recovery</code></pre>"
+      },
+      {
+        "title": "Wipe Data",
+        "description": "In recovery, click on factory reset and then do format data."
+      },
+      {
+        "title": "Flash Clover ROM",
+        "description": "Select apply update using sideload & install the ROM by typing:<pre><code>adb sideload CloverProject*.zip</code></pre>"
+      },
+      {
+        "title": "Reboot",
+        "description": "The first boot may take a few minutes. Enjoy Clover!"
+      }
+    ],
+    "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
+  },
+  "deviceChangelog": [
+    {
+      "version": "2.7",
+      "date": "18-06-2025",
+      "log": [
+        "Bumped to v2.7",
+        "Upstreamed electro kernel to v4",
+        "Set swappiness to 60(Improves overall ram management)",
+        "Kang powerstats from crosshatch",
+        "Switched to pixel thermals AIDL",
+        "Implemented dynamic thermal profiles with pixel thermal-engine",
+        "Updated adreno blobs",
+        "Use prelude clang with kernel",
+        "Reduced ZRAM size to 25%",
+        "Switched back to light hals HIDL(Fixes rapid blink of notification led again)"
+      ]
+    },
+    {
+      "version": "2.5",
+      "date": "17-04-2025",
+      "log": [
+        "Removed NXP,NFC & eSE sepolicy rules",
+        "Rewrite access to BT and WiFi MAC address files",
+        "Switched to AOSP WFD",
+        "Cleanup unused props",
+        "Added more props to improve smoothness,responsiveness and ram management",
+        "Addressed kernel & xiaomiparts sepolicy denials",
+        "Switched back to AIDL Xiaomi light(Fixes rapid blink of notification led)",
+        "Migrated thermal profiles to system settings"
+      ]
+    },
+    {
+      "version": "2.4",
+      "date": "26-03-2025",
+      "log": [
+        "Initial Official release"
+      ]
+    }
+  ]
+}

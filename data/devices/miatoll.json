@@ -1,0 +1,101 @@
+{
+  "name": "POCO M2 Pro / Redmi Note 9S / 9 Pro / 9 Pro Max / 10 Lite",
+  "codename": "miatoll",
+  "brand": "Redmi & Poco",
+  "tagline": "Experience the perfect blend of performance and customization with our Pixel-inspired custom ROM for your device.",
+  "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/download/miatoll.png",
+  "maintainer": {
+    "name": "Cruecy",
+    "githubUrl": "https://github.com/userariii"
+  },
+  "olderBuildsUrl": "https://get.thecloverproject.com/folder/miatoll/",
+  "builds": [
+    {
+      "version": "2.7",
+      "androidVersion": "15",
+      "status": "Stable",
+      "date": "17-06-2025",
+      "securityPatch": "June 2025",
+      "fileSize": "2.4 GB",
+      "md5": "fbdd6e32076c3cda5c647b2614288bb6",
+      "downloadUrl": "https://get.thecloverproject.com/folder/miatoll/2.7"
+    }
+  ],
+  "installationGuide": {
+    "steps": [
+      {
+        "title": "Unlock Bootloader",
+        "description": "Ensure your device's bootloader is unlocked before proceeding."
+      },
+      {
+        "title": "Reboot To Fastboot",
+        "description": "Reboot to Fastboot by pressing Vol Down + Power Button."
+      },
+      {
+        "title": "Connection",
+        "description": "Open CMD or Terminal on your PC and connect your phone via USB."
+      },
+      {
+        "title": "Flash Recovery",
+        "description": "Flash recovery by typing:<pre><code>fastboot flash recovery recovery*.img</code></pre>"
+      },
+      {
+        "title": "Reboot To Recovery",
+        "description": "Reboot into Recovery typing:<pre><code>fastboot reboot recovery</code></pre>"
+      },
+      {
+        "title": "Wipe Data",
+        "description": "In recovery, click on factory reset and then do format data."
+      },
+      {
+        "title": "Flash Clover ROM",
+        "description": "Select apply update using sideload & install the ROM by typing:<pre><code>adb sideload CloverProject*.zip</code></pre>"
+      },
+      {
+        "title": "Reboot",
+        "description": "The first boot may take a few minutes. Enjoy Clover!"
+      }
+    ],
+    "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
+  },
+  "deviceChangelog": [
+    {
+      "version": "2.7",
+      "date": "17-06-2025",
+      "log": [
+        "Performance improvement.",
+        "Fixed Charge disconnection issue."
+      ]
+    },
+    {
+      "version": "2.5",
+      "date": "20-04-2025",
+      "log": [
+        "Spatial Audio: Enable virtualization effect (Make ordinary sound more immersive).",
+        "Spatial Audio: Enable binaural & transaural feature.",
+        "Spatial Audio: optimize spatializer effect delay.",
+        "Switch to Lenovo Dolby tuner, for the full Equalizer control.",
+        "Unlocked Netflix HDR-10 support."
+      ]
+    },
+    {
+      "version": "2.4",
+      "date": "28-03-2025",
+      "log": [
+        "Initial QPR2 release.",
+        "drop! TAS2562 audio amplifier.",
+        "Switch to Prebuilt + OSS audio combination.",
+        "Update BSNL mobile carrier config.",
+        "Added Motorola Dolby Atmos.",
+        "Added Dolby Codec2 support.",
+        "drop! qcom audio effects.",
+        "Improved status bar padding.",
+        "cleanup! unnecessary logspam.",
+        "Enable WPA3/SAE.",
+        "Improvement in WiFi related things.",
+        "Shift with RedCherry Kernel.",
+        "Misc fixes & optimization."
+      ]
+    }
+  ]
+}

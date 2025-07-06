@@ -1,0 +1,51 @@
+[
+  {
+    "version": "2.7",
+    "date": "15-06-2025",
+    "log": [
+      "A15 QPR2 June Patch Update.",
+      "Added Quick Tap Service.",
+      "Implemented Keybox Spoofing.",
+      "That’s a wrap for Android 15! See you next month as we dive into Android 16."
+    ]
+  },
+  {
+    "version": "2.6",
+    "date": "13-05-2025",
+    "log": [
+      "A15 QPR2 May Patch Update.",
+      "Improved charging control with optimizations for better battery management.",
+      "Added Wi-Fi standard indicator in the status bar.",
+      "Enabled default font configuration system-wide.",
+      "Restored animations during Lock/Unlock",
+      "Added app downgrade support",
+      "Added toggle to hide screen capture status from apps",
+      "Option to hide ADB and developer setting status",
+      "Added AMOLED-themed icon effects"
+    ]
+  },
+  {
+    "version": "2.5",
+    "date": "13-04-2025",
+    "log": [
+      "A15 QPR2 April Patch Update.",
+      "Fixed Multiple NPE problems.",
+      "Brought back smartspace start paddings to what they were before.",
+      "Used Accent colors for privacy indicators.",
+      "Added Multiple Screenrecord options",
+      "Added App Cloning Feature"
+    ]
+  },
+  {
+    "version": "2.4",
+    "date": "22-03-2025",
+    "log": [
+      "Initial QPR2 March 2025 Update.",
+      "Retained the majority of features from the previous update.",
+      "Added support for Touch Gestures.",
+      "Expanded ambient settings, providing additional customization options.",
+      "Integrated support for the Flashlight Strength Quick Settings Tile",
+      "Added High Touch Polling Rate support, improving touch responsiveness"
+    ]
+  }
+]

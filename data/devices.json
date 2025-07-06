@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Poco F3",
+        "codename": "alioth",
+        "brand": "Poco",
+        "maintainer": "Perses",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/alioth.png"
+    },
+    {
+        "id": 2,
+        "name": "Poco F1",
+        "codename": "beryllium",
+        "brand": "Poco",
+        "maintainer": "Akshat",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/beryllium.png"
+    },
+    {
+        "id": 3,
+        "name": "Redmi 10C",
+        "codename": "fog",
+        "brand": "Redmi",
+        "maintainer": "Txknightt",
+        "status": "Discontinued",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/fog.png"
+    },
+    {
+        "id": 4,
+        "name": "Poco X6",
+        "codename": "garnet",
+        "brand": "Poco",
+        "maintainer": "kibria",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/garnet.png"
+    },
+    {
+        "id": 5,
+        "name": "Redmi Note 9 Pro",
+        "codename": "miatoll",
+        "brand": "Redmi",
+        "maintainer": "Cruecy",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/miatoll.png"
+    },
+    {
+        "id": 6,
+        "name": "Xiaomi Pad 5",
+        "codename": "nabu",
+        "brand": "Xiaomi",
+        "maintainer": "RainZ",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/nabu.png"
+    },
+    {
+        "id": 7,
+        "name": "Poco F6",
+        "codename": "peridot",
+        "brand": "Poco",
+        "maintainer": "Blaze",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/peridot.png"
+    },
+    {
+        "id": 8,
+        "name": "Nothing Phone 2",
+        "codename": "pong",
+        "brand": "Nothing",
+        "maintainer": "Hiroshi",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/pong.png"
+    }
+]

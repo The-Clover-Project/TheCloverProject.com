@@ -1,0 +1,110 @@
+{
+  "name": "Mi 11x / Poco F3",
+  "codename": "alioth",
+  "brand": "Mi & Poco",
+  "tagline": "Experience the perfect blend of performance and customization with our Pixel-inspired custom ROM for your device.",
+  "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/download/alioth.png",
+  "maintainer": {
+    "name": "Perses",
+    "githubUrl": "https://github.com/bntxperses"
+  },
+  "olderBuildsUrl": "https://get.thecloverproject.com/folder/alioth/",
+  "builds": [
+    {
+      "version": "2.5",
+      "androidVersion": "15",
+      "status": "Stable",
+      "date": "17-04-2025",
+      "securityPatch": "April 2025",
+      "fileSize": "2.4 GB",
+      "md5": "acaff00cb73bd459b0c70ca7aa7b4750",
+      "downloadUrl": "https://get.thecloverproject.com/folder/alioth/2.5"
+    }
+  ],
+  "installationGuide": {
+    "steps": [
+      {
+        "title": "Unlock Bootloader",
+        "description": "Ensure your device's bootloader is unlocked before proceeding."
+      },
+      {
+        "title": "Reboot To Fastboot",
+        "description": "Reboot to Fastboot by pressing Vol Down + Power Button."
+      },
+      {
+        "title": "Connection",
+        "description": "Open CMD or Terminal on your PC and connect your phone via USB."
+      },
+      {
+        "title": "Flash Recovery",
+        "description": "Flash recovery by typing:<pre><code>fastboot flash recovery recovery*.img</code></pre>"
+      },
+      {
+        "title": "Reboot To Recovery",
+        "description": "Reboot into Recovery typing:<pre><code>fastboot reboot recovery</code></pre>"
+      },
+      {
+        "title": "Wipe Data",
+        "description": "In recovery, click on factory reset and then do format data."
+      },
+      {
+        "title": "Flash Clover ROM",
+        "description": "Select apply update using sideload & install the ROM by typing:<pre><code>adb sideload CloverProject*.zip</code></pre>"
+      },
+      {
+        "title": "Reboot",
+        "description": "The first boot may take a few minutes. Enjoy Clover!"
+      }
+    ],
+    "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
+  },
+  "deviceChangelog": [
+    {
+      "version": "2.5",
+      "date": "27-04-2025",
+      "log": [
+        "Cleanup OMX Dependencies for latest sources",
+        "sepolicy: Remove duplicate snxxx AIDL rules",
+        "Disable Chimera.GmsIntentOperationService and Disable collective Device administrators GMS components",
+        "Many more under-the-hood fixes and optimizations" 
+      ]
+    },
+    {
+      "version": "2.4",
+      "date": "27-03-2025",
+      "log": [
+        "Initial QPR2 Build",
+        "Address some manifests to fix hals",
+        "Build DSPVolumeSynchronizer",
+        "Enable torch intensity control",
+        "Update tetheroffload to version 1.1."
+      ]
+    },
+    {
+      "version": "2.3-Hotfix",
+      "date": "20-02-2025",
+      "log": [
+        "Move to Xiaomi fingerprint AIDL",
+        "Mute some ims logspam",
+        "Fix battery cycle count"
+      ]
+    },
+    {
+      "version": "2.3",
+      "date": "08-02-2025",
+      "log": [
+        "Enable scroll optimization",
+        "Optimize app background cache",
+        "Build libvndfwk_detect_jni.qti.vendor",
+        "Sync display properties with CodeLinaro"
+      ]
+    },
+    {
+      "version": "2.2",
+      "date": "30-01-2025",
+      "log": [
+        "Initial Release"
+      ]
+    }
+  ]
+}
