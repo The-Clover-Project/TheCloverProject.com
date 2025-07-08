@@ -70,5 +70,14 @@
         "maintainer": "Hiroshi",
         "status": "Stable",
         "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/pong.png"
+    },
+    {
+        "id": 9,
+        "name": "Motorola G54/G64",
+        "codename": "cancunf",
+        "brand": "Motorola",
+        "maintainer": "Sreejith",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/cancunf.png"
     }
 ]
