@@ -73,14 +73,6 @@
   },
   {
     "id": 10,
-    "name": "Mohammad Kibria",
-    "role": "Maintainer",
-    "image": "https://avatars.githubusercontent.com/u/106745675?v=4",
-    "github": "https://github.com/kibria5",
-    "telegram": "https://t.me/kibria5"
-  },
-  {
-    "id": 11,
     "name": "Sreejith",
     "role": "Maintainer",
     "image": "https://avatars.githubusercontent.com/u/116376583?v=4",
@@ -88,7 +80,7 @@
     "telegram": "https://t.me/sreejith0491"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Dhanush",
     "role": "Maintainer",
     "image": "https://avatars.githubusercontent.com/u/106550362?v=4",

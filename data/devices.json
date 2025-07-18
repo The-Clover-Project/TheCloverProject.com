@@ -22,7 +22,7 @@
         "name": "Redmi 10C",
         "codename": "fog",
         "brand": "Redmi",
-        "maintainer": "Txknightt",
+        "maintainer": "Awaiting",
         "status": "Discontinued",
         "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/fog.png"
     },
@@ -31,8 +31,8 @@
         "name": "Poco X6",
         "codename": "garnet",
         "brand": "Poco",
-        "maintainer": "kibria",
-        "status": "Stable",
+        "maintainer": "Awaiting",
+        "status": "Discontinued",
         "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/garnet.png"
     },
     {
