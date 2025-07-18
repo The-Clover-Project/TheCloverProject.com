@@ -79,5 +79,14 @@
         "maintainer": "Sreejith",
         "status": "Stable",
         "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/cancunf.png"
+    },
+    {
+        "id": 10,
+        "name": "Poco F5",
+        "codename": "marble",
+        "brand": "Poco",
+        "maintainer": "Dhanush",
+        "status": "Stable",
+        "image": "https://raw.githubusercontent.com/The-Clover-Project/TheCloverProject.com/main/public/devices/marble.png"
     }
 ]
