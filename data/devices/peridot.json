@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/peridot/",
   "builds": [
     {
-      "version": "3.11",
+      "version": "3.12",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "24-06-2026",
-      "securityPatch": "June 2026",
+      "date": "18-07-2026",
+      "securityPatch": "July 2026",
       "fileSize": "3.34 GB",
-      "md5": "b4146e64de94fcc69810dc21779d8514",
-      "downloadUrl": "https://get.thecloverproject.com/folder/peridot/3.x/3.11"
+      "md5": "2c9a01ea36ff743038f074af39d82dbc",
+      "downloadUrl": "https://get.thecloverproject.com/folder/peridot/3.x/3.12"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,15 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.12",
+      "date": "18-07-2026",
+      "log": [
+        "Rewrite the whole implementation for bypass mode.",
+        "Implement Touch Filters mode at display driver level (inspiration - @AdarshGrewal ).",
+        "Tune little max frequency in Normal mode [ulquiorra] to 2GHz."
+      ]
+    },
     {
       "version": "3.11",
       "date": "24-06-2026",
