@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/onyx/",
   "builds": [
     {
-      "version": "3.12",
+      "version": "3.12-HOTFIX",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "15-07-2026",
+      "date": "28-08-2026",
       "securityPatch": "July 2026",
-      "fileSize": "4.32 GB",
-      "md5": "ab43176270e0a3e89bbd3ea25af4f21b",
-      "downloadUrl": "https://get.thecloverproject.com/folder/onyx/3.x/3.12"
+      "fileSize": "4.01 GB",
+      "md5": "8e992520cd367c09394ba5893e4d5306",
+      "downloadUrl": "https://get.thecloverproject.com/folder/onyx/3.x/3.12-HOTFIX"
     }
   ],
   "installationGuide": {
@@ -63,6 +63,28 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.12-HOTFIX",
+      "date": "28-08-2026",
+      "log": [
+        "Significant overall performance, smoothness and responsiveness improvements",
+        "Fully optimized OSS kernel with source-built kernel, DTBO and modules",
+        "Major gaming optimizations with improved GPU utilization and GAME mode",
+        "Significantly improved battery efficiency and standby power management",
+        "Heavily refined Dolby Audio and audio stack",
+        "Improved UI rendering, scrolling and multitasking performance",
+        "Improved UDFPS, touch and sensor handling",
+        "Improved Wi-Fi power management and connectivity",
+        "Enabled Wi-Fi QPower and Deep Sleep simultaneously",
+        "Switched to 12GB Dalvik heap profile",
+        "Added GameBar with fixed GPU information",
+        "Improved charging, battery and USB OTG detection",
+        "Added source-built audio components and improved audio dependencies",
+        "Updated Xiaomi IR implementation to AIDL",
+        "Major SELinux, hardware integration and system cleanup",
+        "Miscellaneous stability, reliability and optimization fixes"
+      ]
+    },
     {
       "version": "3.12",
       "date": "15-07-2026",
