@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/peridot/",
   "builds": [
     {
-      "version": "3.12",
+      "version": "3.12-HOTFIX",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "18-07-2026",
+      "date": "14-09-2026",
       "securityPatch": "July 2026",
-      "fileSize": "3.34 GB",
-      "md5": "2c9a01ea36ff743038f074af39d82dbc",
-      "downloadUrl": "https://get.thecloverproject.com/folder/peridot/3.x/3.12"
+      "fileSize": "3.29 GB",
+      "md5": "1149aa1dc108c57cef48227566c5dca6",
+      "downloadUrl": "https://get.thecloverproject.com/folder/peridot/3.x/3.12-HOTFIX/"
     }
   ],
   "installationGuide": {
@@ -60,6 +60,26 @@
   },
   "deviceChangelog": [
     {
+      "version": "3.12-HOTFIX",
+      "date": "14-09-2026",
+      "log": [
+        "Introduce standalone Ulquiorra Manager app for better user experience.",
+        "Improved per-app Xiaomi Touch Tuning.",
+        "Implement KCAL display colour calibration.",
+        "Add KCAL color calibration support directly into Snapdragon Display Engine (SDE) driver.",
+        "Overhaul Ulquiorra UI and decouple the ulquiorrad daemon.",
+        "Backport Google BBRv3 TCP congestion control and set it as default.",
+        "Enable UFS HPB for games that are open world and use dynamic loading.",
+        "Add dynamic root task group CPU boost and disable UBSAN overhead.",
+        "Disable conflicting Qualcomm perf-lock opcodes in vendor configs.",
+        "Fix redirecting party number mistakenly appending to incoming caller ID (credits - @AdarshGrewal ).",
+        "Update Leica / MIUI Camera launcher icons with adaptive vector and themed monochrome icon.",
+        "Label persist directory for Jiiov optical fingerprint sensor in SELinux.",
+        "Fix potential sleep/suspend freezes in kernel SMCInvoke.",
+        "Upstream sync with latest LineageOS kernel, devicetree, and modules."
+      ]
+    },
+    {
       "version": "3.12",
       "date": "18-07-2026",
       "log": [
@@ -76,7 +96,7 @@
         "Add back Dolby Atmos (credits - @NotBlazeee28 )",
         "Drop invalid perf hints from QTI.",
         "Add back missing hint stack in base.",
-        "Add suppot for Bypass Charging.",
+        "Add support for Bypass Charging.",
         "Add support for charging limiter.",
         "Add back support for editing profiles in ulquiorra modes.",
         "blobs: Update blobs from OS3.0.6.0.WNPMIXM",
