@@ -11,21 +11,21 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/rodin/",
   "builds": [
     {
-      "version": "3.12",
+      "version": "3.12-HOTFIX",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "11-08-2026",
+      "date": "17-09-2026",
       "securityPatch": "August 2026",
-      "fileSize": "3.11 GB",
-      "md5": "4d701fe31b1e002acad11c56b1681401",
-      "downloadUrl": "https://get.thecloverproject.com/folder/rodin/3.x/3.12"
+      "fileSize": "3.2 GB",
+      "md5": "2e8805f07f7ebdef3dcccdedeabf29af",
+      "downloadUrl": "https://get.thecloverproject.com/folder/rodin/3.x/3.12-HOTFIX"
     }
   ],
-  "installationGuide": {
+"installationGuide": {
     "steps": [
       {
         "title": "Pre-requisites",
-        "description": "• <b>Firmware:</b> If coming from Modded Stock or HOS2, it is highly recommended to flash the latest HOS3 first before installing this ROM.<br>• <b>Clean Flash is MANDATORY</b> (due to new signing keys)."
+        "description": "• <b>Firmware:</b> If coming from Modded Stock or HOS2, it is highly recommended to flash the latest HOS3 first before installing this ROM.<br>• <b>Clean Flash is MANDATORY</b> (due to prebuild fenrir)."
       },
       {
         "title": "Step 1: Flash Boot Images",
@@ -52,17 +52,41 @@
         "description": "You will be asked: <i>'Reboot to recovery?'</i> -> Select <b>YES</b>."
       },
       {
-        "title": "Step 7: Finish",
-        "description": "Once back in recovery, select <b>Reboot System Now</b>."
+        "title": "Step 7: Sideload GApps (Optional)",
+        "description": "If you flashed the Vanilla version and want Google Apps, navigate to <b>Apply Update</b> -> <b>Apply from ADB</b> and run:<pre><code>adb sideload gapps.zip</code></pre>"
+      },
+      {
+        "title": "Step 8: Finish",
+        "description": "Once done, select <b>Reboot System Now</b>."
       },
       {
         "title": "Pro-Tips",
-        "description": "• If your fod sensors or speaker feel uncalibrated after the first boot, go to <b>Settings > Xiaomi Parts</b> to calibrate them.<br>• The first Day You May Feel Heating, Battery Drain and Laggy. Please be patient!"
+        "description": "• If your fod sensors or speaker feel uncalibrated after the first boot, go to <b>Settings > Xiaomi Parts</b> to calibrate them.<br>• The first Day You May Feel Heating, Battery Drain and Laggy. Please be patient!<br>• Disable blur if you want lag-free screen recording and to save more battery."
       }
     ],
-    "warning": "Clean Flash is MANDATORY (due to new signing keys). Incorrect installation may brick your device. Proceed at your own risk."
+    "warning": "Clean Flash is MANDATORY (due to prebuild fenrir). Incorrect installation may brick your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.12-HOTFIX",
+      "date": "17-09-2026",
+      "log": [
+        "Update Leica / MIUI Camera to v6.7.000070.0",
+        "Address camera SELinux denials for user builds",
+        "Add Fenrir Source Patches",
+        "Revert broken AI tuning and re-align with stock MTK configs",
+        "Re-optimize SurfaceFlinger composition and virtual display pipeline",
+        "Enable MTK GED KPI",
+        "Revert Linux CMA memory allocation increase to 512M",
+        "Relax thermal limits and tune CPU throttling thresholds",
+        "Sync and update power hints with lineage-libperfmgr AIDL states",
+        "Tune CPU/GPU floor frequencies and uclamp scheduling",
+        "Set device name and model to Poco X7 Pro",
+        "Set correct parameter for A2DP suspend",
+        "Label fdsd persist directory for Xiaomi MTD service in sepolicy",
+        "Add dynamic animation size and offset calculations for UDFPS"
+      ]
+    },
     {
       "version": "3.12",
       "date": "11-08-2026",
